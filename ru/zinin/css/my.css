@@ -1,0 +1,40 @@
+html {
+     background-color: rgba(240,245,250, .8);
+    margin: 0 auto;
+ }
+body {
+    width: 900px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#container {
+    margin: 20px;
+}
+#todo-list {
+    border: 1px solid black;
+}
+#completed-list {
+    border: 1px solid black;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    background: #c7c740;
+    border: 1px solid black;
+}
+.done {
+    float: left;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.delete {
+    float: right;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.task {
+    margin: 5px;
+    display: inline-block;
+}
